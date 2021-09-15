@@ -1,6 +1,6 @@
 body {
-	color: #005263;               /* Dark gray */
-	background-color: #white;    /* Light gray = EEEEEE */
+	color: #005263;
+	background-color: #white;    /* Light gray = EEEEEE other = 205D6A*/
 	font-size: 18px;
 	margin: 20px auto;
 }
@@ -8,19 +8,20 @@ h1 {
 	text-align: center;
 	font-size: 2em;
 	padding: 10px;
-	text-align: center;
 	border: 2px dotted #5D6063;
 	border-radius: 3px;
 
-	width: 200px;
+	width: 330px;
 	box-sizing: border-box;
 	margin: 20px auto;
 }
 h2 {
   font-size: 1.6em;
 	padding: 5px;
+	margin: 10px;
 }
 p {
+		margin: 0px 25px;
 }
 ul {
   list-style-type: circle;
@@ -34,24 +35,17 @@ a {
 .active {
 	background-color: #04AA6D;
 }
-#navbar {
+.navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #00697F;
 }
-
-#navbar li {
+.navbar li {
   float: left;
 }
-.center {
-	text-align:center;
-}
-.active {
-  background-color: #205D6A;
-}
-li a {
+.navbar li a {
   display: block;
   color: white;
   text-align: center;
@@ -59,7 +53,12 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
+.navbar li a:hover {
+  background-color: #205D6A;
+}
+.center {
+	text-align:center;
+}
+.active {
   background-color: #205D6A;
 }
