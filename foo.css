@@ -65,3 +65,75 @@ a {
 .secret {
 	color: white;
 }
+/*VVV RESPONSIVE DESIGN VVV*/
+.page {
+  display: flex;
+  flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+}
+.header {
+  background-color: white;
+	color: #005263;
+	width: 100%;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+}
+
+.feature-1 {
+  background-color: #408F9F;
+	width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	font-size: 1.5em;
+}
+.feature-1 a:visited {
+	color: white;
+}
+
+.feature-2 {
+  background-color: #00497F;
+	width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	font-size: 1.5em;
+}
+.feature-2 a:visited {
+	color: white;
+}
+
+.feature-3 {
+  background-color: #55007F;
+	width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	font-size: 1.5em;
+}
+.feature-3 a:visited {
+	color: white;
+}
+@media only screen and (min-width: 961px) {
+  .page {
+    width: 960px;
+    margin: 0 auto;
+  }
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    width: 33.3%;
+  }
+  .header {
+    height: 200px;
+  }
+}
+/*^^^ RESPONSIVE DESIGN ^^^*/
