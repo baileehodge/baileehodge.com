@@ -1,0 +1,26 @@
+https://www.w3schools.com/css/css_navbar_horizontal.asp
+
+https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar
+
+
+----Content Ideas----
+3 pages: about/personal goals, portfolio/resume, contact
+
+<!-- 
+			Footer idea:
+			line across bottom, maybe 1/3 of the width of the page
+			dark blue/teal color
+			contact icons below, linked 
+			
+			maybe: background color of the grey found in
+			the navbar, or of whatever the navbar ends up being
+-->
+
+
+REAL:
+make navbar smaller
+update resume section
+play with colors
+
+make a condensed resume page?
+change all likes to 418 page?
