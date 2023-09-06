@@ -365,6 +365,10 @@ input:checked + .slider:before {
 	border-radius: 50%;
 	}
 
+#resume-link {
+		padding-top: 40px;
+}
+
 @media only screen and (min-width: 425px) {
 	/* .page {
     	width: 960px;
@@ -427,9 +431,6 @@ a {
 	margin-left: 20px;
 	margin-right: 20px;
 	text-align: center;
-}
-#resume-link {
-	padding-top: 40px;
 }
 
 @media only screen and (min-width: 961px) {
