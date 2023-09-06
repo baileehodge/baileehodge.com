@@ -5,6 +5,10 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ]
+    ],
+    "rewrites": [ {
+      "source" : "baileehodge.com",
+      "destination" : "https://baileehodgecom.web.app"
+    }]
   }
 }
