@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rel A 250 Project</title>
+    <style>
+        /* Center-align the title and the button */
+        body {
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: slategray;
+        }
+        h1 {
+            background-color: white;
+            border-radius: 20px;
+            width: 85%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+        }
+        /* Add some basic styling for the button and verse container */
+        #verse-container {
+            text-align: center;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: white;
+            border-radius: 20px;
+            width: 65%;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: larger;
+        }
+
+        #title {
+            font-weight: bold;
+        }
+
+        #generate-button {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: white;
+            font-weight: bold;
+            font-size: large;
+            border-radius: 10px;
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px;
+            transition: all 0.5s;
+            cursor: pointer;
+        }
+        #generate-button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+        #generate-button span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+        #generate-button:hover span {
+            padding-right: 25px;
+        }
+        #generate-button:hover span:after {
+            opacity: 1;
+            right: 0;
+}
+    </style>
+</head>
+
+<body>
+    <h1>Titles of Jesus Christ</h1>
+    <button id="generate-button"><span>Generate Random Title</span></button>
+    <div id="verse-container">
+        <p id="title"></p>
+        <p id="verse-text"></p>
+        <p id="reference"></p>
+    </div>
+
+    <script>
+        // List of verses with title and reference
+        const verses = [
+            {
+                title: "Alpha and Omega",
+                verse: "Doctrine & Covenants 38:1",
+                reference: "Thus saith the Lord your God, even Jesus Christ, the Great I Am, Alpha and Omega, the beginning and the end, the same which looked upon the wide expanse of eternity, and all the seraphic hosts of heaven, before the world was made;.",
+            },
+            {
+                title: "Creator",
+                verse: "Psalm 33:6",
+                reference: "By the word of the Lord were the heavens made; and all the host of them by the breath of his mouth.",
+            },
+            {
+                title: "Divine Warrior",
+                verse: "Matthew 10:1",
+                reference: "And when he had called unto him his twelve disciples, he gave them power against unclean spirits, to cast them out, and to heal all manner of sickness and all manner of disease.",
+            },
+            {
+                title: "Redeemer",
+                verse: "Luke 24:21",
+                reference: "But we trusted that it had been he which should have redeemed Israel: and beside all this, to day is the third day since these things were done.",
+            },
+            {
+                title: "Messiah",
+                verse: "2 Nephi 2:6",
+                reference: "Wherefore, redemption cometh in and through the Holy Messiah; for he is full of grace and truth.",
+            },
+            {
+                title: "Only Begotten",
+                verse: "1 John 4:9",
+                reference: "In this was manifested the love of God toward us, because that God sent his only begotten Son into the world, that we might live through him.",
+            },
+            {
+                title: "Teacher",
+                verse: "ADD TEXT",
+                reference: "ADD TEXT",
+            },
+            {
+                title: "Christ",
+                verse: "ADD TEXT",
+                reference: "ADD TEXT",
+            },
+            {
+                title: "Son of God",
+                verse: "ADD TEXT",
+                reference: "ADD TEXT",
+            },
+            {
+                title: "King of Kings, Lord of Lords",
+                verse: "ADD TEXT",
+                reference: "ADD TEXT",
+            },
+            {
+                title: "Advocate",
+                verse: "ADD TEXT",
+                reference: "ADD TEXT",
+            },
+            {
+                title: "Risen Lord",
+                verse: "ADD TEXT",
+                reference: "ADD TEXT",
+            },
+            {
+                title: "Great High Priest",
+                verse: "ADD TEXT",
+                reference: "ADD TEXT",
+            },
+        ];
+
+        // Function to generate a random verse
+        function generateRandomverse() {
+            const randomIndex = Math.floor(Math.random() * verses.length);
+            const randomverse = verses[randomIndex];
+            document.getElementById("title").textContent = randomverse.title;
+            document.getElementById("verse-text").textContent = randomverse.verse;
+            document.getElementById("reference").textContent = randomverse.reference;
+        }
+
+        // Add a click event listener to the button
+        document.getElementById("generate-button").addEventListener("click", generateRandomverse);
+
+        // Initial verse generation
+        generateRandomverse();
+    </script>
+</body>
+
+</html>
