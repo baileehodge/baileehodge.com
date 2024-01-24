@@ -1,3 +1,7 @@
+:root {
+    --accent-color: #145154;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -45,7 +49,7 @@ a:hover {
 
 .navbar {
     overflow: hidden;
-    background-color: #4c50f9;
+    background-color: var(--accent-color);
     color: #333;
     top: 0;
     width: 100%;
@@ -76,7 +80,7 @@ a:hover {
 }
 
 .top {
-    background-color: #4c50f9;
+    background-color: var(--accent-color);
     height: 650px;
 }
 
@@ -86,7 +90,7 @@ a:hover {
 }
 
 .nav-top {
-    border-top: 15px solid #4c50f9;
+    border-top: 15px solid var(--accent-color);
 }
 
 .row {
@@ -116,7 +120,7 @@ a:hover {
 
 .sidepanel a.title {
     font-family: 'Noto Serif', serif;
-    font-size: 28px;
+    font-size: 18px;
     font-weight: 600;
     text-align: left;
     text-decoration: none;
@@ -127,7 +131,7 @@ a:hover {
 
 .sidepanel a.section {
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     text-align: left;
     line-height: 30px;
     display: block;
@@ -179,7 +183,7 @@ a:hover {
 }
 
 .right-col h2 {
-    font-size: 28px;
+    font-size: 21px;
     line-height: 24px;
     margin-bottom: 30px;
     text-align: left;
@@ -188,13 +192,13 @@ a:hover {
 }
 
 .right-col p {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 22px;
     margin-bottom: 36px;
 }
 
 .right-col a {
-    color: #4c50f9;
+    color: var(--accent-color);
     text-decoration: underline;
 }
 
@@ -223,7 +227,7 @@ a:hover {
 .divider {
     width: 40px;
     height: 4px;
-    background: #4c50f9;
+    background: var(--accent-color);
     border-radius: 30px;
     margin: auto;
     margin-top: 8px;

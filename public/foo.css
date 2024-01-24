@@ -380,7 +380,7 @@ input:checked + .slider:before {
     width: 33.3%;
   } */
 body {
-	font-size: 15px;
+	font-size: 20px;
 }
 }
 #contact {
@@ -411,10 +411,11 @@ a {
 }
 #two {
 	background-color: var(--two-bg);
+	font-size: 1.4em;
 }
 #three {
 	background-color: var(--three-bg);
-	font-size: 1.5em;
+	font-size: 1.4em;
 }
 #four {
 	background-color: var(--four-bg);
