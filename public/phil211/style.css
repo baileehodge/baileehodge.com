@@ -1,20 +1,27 @@
 :root {
-    --accent-color: #145154;
+    --accent-color: green;
+    --text-color: white;
+    --background-color: #272729;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-
 body {
+    background-color: var(--background-color) ;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 0.2px;
-    color: #333;
+    color:  var(--text-color);
     margin: 0;
 }
 
+div {
+    background-color: var(--background-color) ;
+}
+
 h1 {
+    background-color: var(--background-color) ;
     font-family: 'Noto Serif', serif;
     font-size: 39px;
     line-height: 42px;
@@ -23,11 +30,12 @@ h1 {
 }
 
 h2 {
+    background-color: var(--background-color) ;
     font-family: 'Noto Serif', serif;
     font-size: 28px;
     line-height: 30px;
     text-align: center;
-    color: #333;
+    color:  var(--text-color);
     margin-block-start: 40px;
     margin-block-end: 30px;
     margin-inline-start: 0px;
@@ -35,11 +43,13 @@ h2 {
 }
 
 p {
+    background-color: var(--background-color) ;
     font-size: 20px;
     line-height: 26px;
 }
 
 a {
+    background-color: var(--background-color) ;
     text-decoration: none;
 }
 
@@ -50,7 +60,7 @@ a:hover {
 .navbar {
     overflow: hidden;
     background-color: var(--accent-color);
-    color: #333;
+    color:  var(--text-color);
     top: 0;
     width: 100%;
     height: auto;
@@ -63,7 +73,7 @@ a:hover {
 
 .navbar a {
     margin-right: 40px;
-    color: #333;
+    color:  var(--text-color);
 }
 
 .navbar a:active {
@@ -75,6 +85,7 @@ a:hover {
 }
 
 .container {
+    background-color: var(--background-color) ;
     padding-top: 75px;
     width: 100%;
 }
@@ -85,7 +96,7 @@ a:hover {
 }
 
 .clear {
-    background-color: #fff;
+    background-color: var(--background-color) ;
     height: auto;
 }
 
@@ -111,7 +122,7 @@ a:hover {
 .sidepanel {
     width: 200px;
     margin-top: 120px;
-    background-color: #fff;
+    background-color: var(--background-color) ;
     overflow-x: hidden;
     position: fixed;
     height: 80%;
@@ -124,7 +135,7 @@ a:hover {
     font-weight: 600;
     text-align: left;
     text-decoration: none;
-    color: #333;
+    color:  var(--text-color);;
     display: block;
     padding-bottom: 12px;
 }
@@ -136,7 +147,7 @@ a:hover {
     line-height: 30px;
     display: block;
     text-decoration: none;
-    color: #333;
+    color:  var(--text-color);
 }
 
 .sidepanel a.sub-section {
@@ -146,7 +157,7 @@ a:hover {
     line-height: 25px;
     display: block;
     text-decoration: none;
-    color: #333;
+    color:  var(--text-color);
     padding-left: 20px;
 
 }
@@ -245,11 +256,11 @@ a:hover {
     padding: 90px 0 20px;
     font-size: 15px;
     text-align: center;
-    background-color: #fff;
+    background-color: var(--background-color) ;
 }
 
 .footer a {
-    color: #333;
+    color:  var(--text-color);
 }
 
 .resp-break {
