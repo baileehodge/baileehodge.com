@@ -1,8 +1,26 @@
 :root {
     --accent-color: green;
     --text-color: white;
-    --background-color: #272729;
+    --background-color: #17171a;
 }
+
+/* ::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #606065;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ceced0;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: white;
+} */
 
 html {
     scroll-behavior: smooth;
