@@ -13,14 +13,13 @@
     border-radius: 10px;
 }
 
-::-webkit-scrollbar-thumb {
-    background: #ceced0;
-    border-radius: 10px;
-}
-
 ::-webkit-scrollbar-thumb:hover {
     background: white;
 } */
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+}
 
 html {
     scroll-behavior: smooth;
@@ -227,9 +226,14 @@ a:hover {
 }
 
 .right-col a {
-    color: var(--accent-color);
+    color: var(--text-color);
     text-decoration: underline;
 }
+
+.right-col a:hover {
+    color: var(--accent-color)
+}
+
 
 .right-col ol {
     margin-block-start: 10px;

@@ -122,10 +122,10 @@
                 <p>One of the most prevalent applications of cryptography is in the realm of secure communication protocols such as Transport Layer Security (TLS) and Secure Sockets Layer (SSL), which encrypt data transmitted over computer networks to ensure confidentiality and integrity. Cryptographic algorithms like the Advanced Encryption Standard (AES) and RSA (Rivest-Shamir-Adleman) are widely employed in securing data-at-rest and data-in-transit, ranging from online banking transactions to government communications.
                 </p>
 
-                <p>Moreover, the rise of cryptocurrencies such as Bitcoin has brought cryptographic principles to the forefront of financial innovation. Blockchain technology, the underlying framework of cryptocurrencies, relies on cryptographic primitives like hash functions and digital signatures to ensure the immutability and integrity of transaction records without the need for centralized oversight.
+                <p>More specifically, encryption of passwords is often undergone through "hashing and salting" algorithms. When a user creates a password with a website or company, the managing party runs the password through an algorithm that scrambles the password into mostly random letters, numbers, and symbols. This string of symbols is what the company stores; they never have to store the user's password itself. This protects the company from liability during data breaches, to a certain extent. When a user logs in with that site, the password they input is put through that same algorithm. If the resulting gibberish string matches the stored string, the user is given access to their account. The algorithm is such that no two strings will produce the same hash string, and it is infinitely difficult to reverse the hash to get the original string from the hashed string.
                 </p>
 
-                <p>Furthermore, the advent of quantum computing poses both opportunities and challenges for the field of cryptography. While quantum computers hold the potential to break conventional cryptographic schemes through algorithms like Shor's algorithm, they also enable the development of quantum-resistant cryptographic protocols such as lattice-based cryptography and hash-based signatures.
+                <p>The advent of quantum computing poses both opportunities and challenges for the field of cryptography. Hashing algorithms are designed to be incredibly time-intensive for standard computers to break. While quantum computers hold the potential to break conventional cryptographic schemes by solving these infinitely difficult problems with incredible speed, they also open the door for the creation of even more complex security algorithms.
                 </p>
 
                 <!--  -->
@@ -136,8 +136,9 @@
 
                 <h1>Conclusion</h1>
 
-                <p>In conclusion, the journey of cryptography from its humble origins to its modern-day prominence is a testament to humanity's relentless pursuit of secure communication and information privacy. As we navigate an increasingly interconnected and digitized world, the role of cryptography in safeguarding our digital infrastructure and preserving individual liberties cannot be overstated. By delving into its historical roots, formalization as a field of study, and diverse applications in contemporary technology, we gain a deeper appreciation for the profound impact of cryptography on society at large. Thus, cryptography is the bedrock of the eternal quest for security and trust in the digital age.
+                <p>Modern day cryptography may look very different from the ciphers of the Egyptians, but the purpose is the same: putting a proverbial lock and key on information, making it accessible to the right people and inaccessible to the wrong ones. As our technology advances, so will our encoding and decoding capabilities. 
                 </p>
+                <p>Even with all of our fancy encryption, passwords still get broken. There's an incredibly simple, low-tech way to fight this: don't use the same password for every website.</p>
 
 
                 <div class="divider" style="width:24%; margin:30px 0;"></div>
@@ -147,7 +148,19 @@
                 <!--  -->
                 <a id="six"></a>
 
-                <p></p>
+                <p>Much of this material is sourced from Encyclopedia Britannica, Code Girls' by Liza Mundy, and my personal notes taken during a variety of Computer Science classes. Here are links to some of these sources, provided for optional further reading:</p>
+
+                <ul>
+                    <li>
+                        <a href="https://www.britannica.com/topic/hieroglyphic-writing/Cryptographic-hieroglyphic-writing">Cryptographic Hieroglyphic Writing</a>
+                        <br>
+                    <li>
+                        <a href="https://lib.byu.edu/search/byu/record/cat.6907533.item.31197239582668?holding=qv4gybvphwio30te">Code Girls By Liza Mundy</a>
+                    </li>
+                    <li>
+                        <a href="https://www.britannica.com/topic/cryptography">Cryptography</a>
+                        <br>
+                </ul>
 
                 <div class="doublespace"></div>
                 <div class="divider" style="width:24%; margin:30px 0;"></div>
