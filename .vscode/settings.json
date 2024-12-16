@@ -2,5 +2,6 @@
     "cSpell.ignoreWords": [
         "passcode",
         "protectpasscode"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }
