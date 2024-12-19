@@ -1,8 +1,36 @@
+/* FREQUENTLY EDITED */
+/* background image settings */
+.card.clickable {
+	background-size: cover;
+	background-blend-mode: overlay;
+	position: relative; 
+}
+.card.clickable::before {
+	content: "";
+	filter: blur(10px);
+	z-index: -1;
+}
+
+#ml_research {
+	background-image: url("media/cards/stellar.png");
+}
+#resume_card {
+	background-image: url("media/cards/resume.png");
+}
+#cryptography {
+	background-image: url("media/cards/crypto.png");
+}
+
+
+/* */
+
 html {
+	width: 100%;
     margin: 0;
     padding: 0;
     word-wrap: break-word;  /* For older browsers */
     word-break: break-word; /* For modern browsers */
+	box-sizing: border-box;
 }
 
 /* HEADER */
@@ -70,7 +98,6 @@ a:active {
     grid-gap: 20px;
     padding: 20px;
     max-width: 1200px;
-    min-width: 700px;
     margin: 0 auto;
     padding-top: 100px;
 }
@@ -105,12 +132,12 @@ a:active {
     background-color: var(--three-bg);
 }
 
-.clickable:hover {
-    transform: translateY(-7px);
-}
-
 .clickable {
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.clickable:hover {
+    transform: translateY(-7px);
 }
 
 a .card {
@@ -121,6 +148,7 @@ a:hover .card {
     text-decoration: none;
     color: var(--text-color-body);
 }
+
 
 @media screen and (max-width: 768px) {
     .grid-container {
