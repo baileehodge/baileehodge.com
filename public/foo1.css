@@ -13,6 +13,9 @@
 #ghself {
     background-image: url("media/cards/ghself.png");
 }
+#rec_card {
+    background-image: url("media/cards/riding.png");
+}
 
 .card.clickable {
     background-size: cover;
